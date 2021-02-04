@@ -11,5 +11,6 @@ public class AppStarter {
         Serializator.serialize(csvWorker.getExams());
         ArrayList subjects = (ArrayList) Serializator.deserialize();
         System.out.println("Size of new ArrayList: "+subjects.size());
+        System.out.println(subjects.get(0).toString());
     }
 }
